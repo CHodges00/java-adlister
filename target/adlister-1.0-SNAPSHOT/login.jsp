@@ -16,6 +16,7 @@
 <html>
 <head>
     <title>Login</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 <%@ include file="partials/navbar.jsp"%>
