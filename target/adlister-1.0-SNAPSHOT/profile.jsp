@@ -5,8 +5,6 @@
     <title>Profile</title>
 </head>
 <body>
-<h1>${param.user}</h1>
-
 <% request.setAttribute("message", "Welcome to your profile!");%>
 
 <h2>${message}</h2>

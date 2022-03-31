@@ -30,5 +30,6 @@
         <button type="submit">Login</button>
     </div>
 </form>
+<%@include file="partials/footer.jsp"%>
 </body>
 </html>

@@ -16,6 +16,7 @@
 <html>
 <head>
     <title>Login</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 <%@ include file="partials/navbar.jsp"%>
@@ -30,5 +31,6 @@
         <button type="submit">Login</button>
     </div>
 </form>
+<%@include file="partials/footer.jsp"%>
 </body>
 </html>
