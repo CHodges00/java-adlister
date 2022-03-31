@@ -5,11 +5,7 @@
     <title>Profile</title>
 </head>
 <body>
-<h1>Profile</h1>
-
-<% request.setAttribute("message", "this message was added with setAttribute");%>
-
-<h5>fav_food : ${param.fav_food}</h5>
+<% request.setAttribute("message", "Welcome to your profile!");%>
 
 <h2>${message}</h2>
 

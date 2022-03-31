@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<div class="nav" style="display: flex; justify-content: space-evenly">
+<div class="nav" style="display: flex; justify-content: space-evenly; align-items: center">
     <div id="left">
         <h1>Learning</h1>
     </div>
