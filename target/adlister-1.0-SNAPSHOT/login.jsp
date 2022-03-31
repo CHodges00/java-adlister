@@ -18,6 +18,7 @@
     <title>Login</title>
 </head>
 <body>
+<%@ include file="partials/navbar.jsp"%>
 <form action="login.jsp" method="post">
     <div>
         <input type="text" placeholder="Username" name="user" required>
