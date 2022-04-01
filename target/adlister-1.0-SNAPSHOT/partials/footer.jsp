@@ -2,7 +2,7 @@
 <footer>
     <div class="foot-left">
         <div class="logo">
-            <h2> Beer Picker </h2><img src="https://img.icons8.com/doodle/48/000000/beer--v1.png"/>
+            <h2> Footer </h2>
         </div>
         <hr>
         </div>
