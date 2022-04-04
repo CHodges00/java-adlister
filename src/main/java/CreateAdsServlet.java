@@ -14,6 +14,16 @@ public class CreateAdsServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        Ads AdsDao = DaoFactory.getAdsDao();
 
+        String title = request.getParameter("title");
+        String content = request.getParameter("content");
+        double price = Double.parseDouble(request.getParameter("price"));
+        String location = request.getParameter("location");
+
+        Ad Ads = new Ad(title, content, price, location);
+
+        AdsDao.insert(Ads);
+        response.sendRedirect("/ads");
     }
 }

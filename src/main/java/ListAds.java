@@ -20,10 +20,9 @@ public class ListAds implements Ads {
         return this.Ads;
     }
 
-    @Override
-    public void insert(Ads Ad) {
 
-    }
+
+
 }
 
 
