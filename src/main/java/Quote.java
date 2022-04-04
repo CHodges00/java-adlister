@@ -1,8 +1,8 @@
 import java.io.Serializable;
 
-public class Quotes implements Serializable {
+public class Quote implements Serializable {
 
-    public Quotes () {};
+    public Quote() {};
 
     private long id;
     private String content;
