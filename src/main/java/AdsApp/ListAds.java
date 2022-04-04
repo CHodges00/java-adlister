@@ -1,7 +1,11 @@
+package AdsApp;
+
+import AdsApp.Ad;
+
 import java.util.List;
 import java.util.ArrayList;
 
-public class ListAds implements Ads {
+public class ListAds implements AdsApp.Ads {
     private ArrayList<Ad> Ads = new ArrayList<Ad>();
 
 

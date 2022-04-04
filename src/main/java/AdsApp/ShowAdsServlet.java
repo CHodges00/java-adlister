@@ -1,3 +1,9 @@
+package AdsApp;
+
+import AdsApp.Ad;
+import AdsApp.Ads;
+import AdsApp.DaoFactory;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

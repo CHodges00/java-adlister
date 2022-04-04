@@ -1,3 +1,5 @@
+package AdsApp;
+
 import java.io.Serializable;
 
 public class Ad implements Serializable {
