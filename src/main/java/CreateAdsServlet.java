@@ -14,13 +14,6 @@ public class CreateAdsServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        Products productsDao = DaoFactory.getProductsDao();
-        // create a new product based on the submitted data
-        String name = request.getParameter("name");
-        double price = Double.parseDouble(request.getParameter("price"));
-        Product product = new Product(name, price);
-        // persist the new product
-        productsDao.insert(product);
-        response.sendRedirect("/products");
+
     }
 }
