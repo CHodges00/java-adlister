@@ -4,18 +4,9 @@ public class Quote implements Serializable {
 
     public Quote() {};
 
-    private long id;
     private String content;
     private String author;
 
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
 
     public String getContent() {
         return content;
