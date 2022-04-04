@@ -2,7 +2,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class ListAds implements Ads {
-    private List<Ad> Ads = new ArrayList();
+    private ArrayList<Ad> Ads = new ArrayList<Ad>();
 
 
     public ListAds() {

@@ -21,9 +21,9 @@ public class CreateAdsServlet extends HttpServlet {
         double price = Double.parseDouble(request.getParameter("price"));
         String location = request.getParameter("location");
 
-        Ad Ads = new Ad(title, content, price, location);
+        Ad Ad = new Ad(title, content, price, location);
 
-        AdsDao.insert(Ads);
+        AdsDao.insert(Ad);
         response.sendRedirect("/ads");
     }
 }

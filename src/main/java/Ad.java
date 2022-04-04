@@ -9,7 +9,6 @@ public class Ad implements Serializable {
     public Ad() {} // default constructor
 
 
-    // custom constructor to take in 2 properties
     public Ad(String title, String content, double price, String location) {
         this.title = title;
         this.content = content;
@@ -50,7 +49,6 @@ public class Ad implements Serializable {
     }
 
 
-    // getters and setters
 
 
 

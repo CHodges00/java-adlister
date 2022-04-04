@@ -1,5 +1,4 @@
-
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -11,12 +10,11 @@
 
 <c:forEach var="Ad" items="${Ads}">
 <div class="Ad">
-    <h1>${Ad.title}</h1>
-    <p>${Ad.content}</p>
-    <p>${Ad.price}</p>
-    <p>${Ad.location}</p>
-</div>
+    <h1>Title: ${Ad.title}</h1>
+    <p>Content: ${Ad.content}</p>
+    <p>Price: ${Ad.price}</p>
+    <p>Location: ${Ad.location}</p>
 </c:forEach>
-
+</div>
 </body>
 </html>
