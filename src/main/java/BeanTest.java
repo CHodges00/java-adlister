@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+
+
 public class BeanTest {
 
 
@@ -12,20 +15,34 @@ public class BeanTest {
 
 
 
+        Author author1 = new Author();
+        author1.setId(1);
+        author1.setFirstName("Tim");
+        author1.setLastName("Toolman");
+
 
         Quote quote1 = new Quote();
+        quote1.setContent("Learning is fun");
+        Quote quote2 = new Quote();
+        quote2.setContent("Learning is interesting");
+        Quote quote3 = new Quote();
+        quote3.setContent("Learning is cool");
+        Quote quote4 = new Quote();
+        quote4.setContent("Learning is hard");
+
+//        ArrayList<String> quotes = new ArrayList<>();
+//        quotes.add(quote1);
+//        quotes.add(quote2);
+//        quotes.add(quote3);
+//        quotes.add(quote4);
+//
+//        for (String i : quotes){
+//            System.out.println(i);
+//        }
 
 
 
 
-
-        Author author1 = new Author();
-
-        System.out.println("album1.getReleaseDate() = " + album1.getReleaseDate());
-        System.out.println("album1.getArtist() = " + album1.getArtist());
-        System.out.println("album1.getGenre() = " + album1.getGenre());
-        System.out.println("album1.getId() = " + album1.getId());
-        System.out.println("album1.getName() = " + album1.getName());
 
 
     }
