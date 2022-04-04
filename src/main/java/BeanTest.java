@@ -11,12 +11,11 @@ public class BeanTest {
         album1.setGenre("Rock");
         album1.setId(1);
         album1.setName("Darkened");
-        album1.setReleaseDate("2020/02/02");
+        album1.setReleaseDate(01, 02, 2020);
 
 
 
         Author author1 = new Author();
-        author1.setId(1);
         author1.setFirstName("Tim");
         author1.setLastName("Toolman");
 
