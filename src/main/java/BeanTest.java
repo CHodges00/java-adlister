@@ -22,15 +22,19 @@ public class BeanTest {
 
 
         Quote quote1 = new Quote();
+        quote1.setId(1);
         quote1.setAuthor("Andy");
         quote1.setContent("Learning is fun");
         Quote quote2 = new Quote();
+        quote2.setId(2);
         quote2.setAuthor("Sarah");
         quote2.setContent("Learning is interesting");
         Quote quote3 = new Quote();
+        quote3.setId(3);
         quote3.setAuthor("Will");
         quote3.setContent("Learning is cool");
         Quote quote4 = new Quote();
+        quote4.setId(4);
         quote4.setAuthor("Dan");
         quote4.setContent("Learning is hard");
 
@@ -44,6 +48,7 @@ public class BeanTest {
         quoteList.add(quote4);
 
         for (Quote i:quoteList){
+            System.out.println(i.getId());
             System.out.println(i.getAuthor());
             System.out.println(i.getContent());
         }
