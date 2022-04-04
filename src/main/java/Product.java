@@ -1,6 +1,6 @@
+import java.io.Serializable;
 
-
-public class Product {
+public class Product implements Serializable {
     private String name; // field 1
     private double price; // field 2
 
