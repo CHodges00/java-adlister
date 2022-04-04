@@ -43,9 +43,10 @@ public class BeanTest {
         quotes.add(quote3);
         quotes.add(quote4);
 
-        for (Object quote : quotes){
-            System.out.println(quote.toString());
-        }
+
+//        for (Quote quote : quotes){
+//            System.out.println(quote.getAuthor().toString() + ", " + quote.getContent().toString() + " " + quote.getId());
+//        }
 
 
 
