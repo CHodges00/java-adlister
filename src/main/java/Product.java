@@ -1,17 +1,20 @@
 
 
 public class Product {
-    private String name;
-    private double price;
+    private String name; // field 1
+    private double price; // field 2
 
-    public Product() {
-    }
+    public Product() {} // default constructor
 
+
+    // custom constructor to take in 2 properties
     public Product(String name, double price) {
         this.name = name;
         this.price = price;
     }
 
+
+    // getters and setters
     public String getName() {
         return name;
     }
@@ -27,6 +30,12 @@ public class Product {
     public void setPrice(double price) {
         this.price = price;
     }
+
+
+
+
+
+
 }
 
 
