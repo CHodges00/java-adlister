@@ -11,12 +11,12 @@
 //public class ShowProductsServlet extends HttpServlet {
 //    @Override
 //    protected void doGet(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
-//        // Use the factory to get the dao object
+////         Use the factory to get the dao object
 //        Products productsDao = AdsApp.DaoFactory.getProductsDao();
-//        // Use a method on the dao to get all the products
+////         Use a method on the dao to get all the products
 //        List<Product> products = productsDao.all();
-//        // Pass the data to the jsp
+////         Pass the data to the jsp
 //        request.setAttribute("products", products);
-//        request.getRequestDispatcher("/products/productsindex.jsp").forward(request, resp);
+//        request.getRequestDispatcher("/WEB-INF/products/productsindex.jsp").forward(request, resp);
 //    }
 //}

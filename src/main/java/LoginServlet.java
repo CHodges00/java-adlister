@@ -11,4 +11,12 @@ public class LoginServlet extends HttpServlet {
 
     }
 
+    protected void doPost(HttpServletRequest request, HttpServletResponse repsonse) {
+
+        if (isAdmin) {
+            request.getSession().setAttribute("isAdmin", true);
+        }
+
+    }
+
 }

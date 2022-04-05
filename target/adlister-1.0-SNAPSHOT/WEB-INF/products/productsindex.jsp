@@ -4,7 +4,7 @@
 <html>
 <head>
     <title>View Products</title>
-    <link rel="stylesheet" href="../products.css">
+    <link rel="stylesheet" href="../../products.css">
 </head>
 <body>
 <h1>Here are all the products</h1>

@@ -13,8 +13,9 @@ public class LanguageDisplayServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        super
-        request.getRequestDispatcher("inputlanguage.jsp").forward
+        super.doGet(request, response);
 
+        request.getRequestDispatcher("inputlanguage.jsp").forward(request, response);
     }
+
 }
