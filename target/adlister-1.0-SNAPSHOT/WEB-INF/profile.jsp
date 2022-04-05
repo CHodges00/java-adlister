@@ -9,7 +9,7 @@
 <jsp:include page="../partials/navbar.jsp" />
 
 <div class="container">
-    <h1>${user}, you are now viewing your profile.</h1>
+    <h1>Hello, ${user}<br> you are now viewing your profile.</h1>
 </div>
 
 </body>
