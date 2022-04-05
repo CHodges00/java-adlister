@@ -12,5 +12,13 @@
     <h1>Hello, ${user}<br> you are now viewing your profile.</h1>
 </div>
 
+<button type="button" id="logout">Logout</button>
+
+<script>
+    document.getElementById("logout").onclick = function (){
+        document.location = "http://localhost:8081/logout"
+    }
+</script>
+
 </body>
 </html>
