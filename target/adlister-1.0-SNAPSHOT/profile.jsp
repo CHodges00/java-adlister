@@ -1,14 +1,16 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Profile</title>
+    <jsp:include page="partials/head.jsp">
+        <jsp:param name="title" value="Your Profile" />
+    </jsp:include>
 </head>
 <body>
-<% request.setAttribute("message", "Welcome to your profile!");%>
+<jsp:include page="partials/navbar.jsp" />
 
-<h2>${message}</h2>
-
+<div class="container">
+    <h1>Viewing your profile.</h1>
+</div>
 
 </body>
 </html>
