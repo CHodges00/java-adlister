@@ -2,10 +2,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>AdsApp.Ads AdsApp.Ads AdsApp.Ads</title>
+    <title>Ads App</title>
+    <link rel="stylesheet" href="../ads.css">
 </head>
 <body>
-<h1>Here are some AdsApp.Ads</h1>
+<h1>Create an Ad !</h1>
 <form action="/ads/create" method="post">
     <label for="title">Title</label>
     <input name="title" id="title" type="text">
