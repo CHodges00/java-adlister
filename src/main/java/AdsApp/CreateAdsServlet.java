@@ -32,3 +32,4 @@ public class CreateAdsServlet extends HttpServlet {
         response.sendRedirect("/ads");
     }
 }
+
