@@ -16,13 +16,8 @@
     <br>
     <label for="description">Description</label>
     <input name="description" id="description" type="text">
-<%--    <br>--%>
-<%--    <label for="price">Price</label>--%>
-<%--    <input name="price" id="price" type="text">--%>
-<%--    <br>--%>
-<%--    <label for="location">Location</label>--%>
-<%--    <input name="location" id="location" type="text">--%>
-<%--    <input type="submit">--%>
+
+    <input type="submit">
 
 
 </form>
