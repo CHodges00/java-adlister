@@ -1,13 +1,13 @@
 package dao;
 
+import com.mysql.cj.jdbc.Driver;
 import models.Ad;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+
+
 
 public class MySQLAdsDao implements Ads {
     private Connection connection = null;
