@@ -22,7 +22,6 @@ public class CreateAdServlet extends HttpServlet {
         }
         request.getRequestDispatcher("/create.jsp").forward(request, response);
     }
-    }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
