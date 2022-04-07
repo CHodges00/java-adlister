@@ -16,11 +16,13 @@ public class LoginServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        String email = request.getParameter("email");
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         boolean validLogin = username.equals("admin") && password.equals("password");
 
         if (validLogin) {
+            request.getSession().setAttribute("email", email);
             request.getSession().setAttribute("user", username);
             response.sendRedirect("/profile");
         } else {
