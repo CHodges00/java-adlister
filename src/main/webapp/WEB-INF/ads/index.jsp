@@ -23,7 +23,7 @@
     </c:forEach>
 </div>
 
-
+<p>${sessionScope}</p>
 
 
 </body>

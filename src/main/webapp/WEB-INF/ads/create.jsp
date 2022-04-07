@@ -22,7 +22,7 @@
 
 </form>
 
-
+<p>${sessionScope}</p>
 
 </body>
 </html>

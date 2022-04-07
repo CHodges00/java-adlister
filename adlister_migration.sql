@@ -1,5 +1,7 @@
 use adlister_db;
 
+DROP TABLE IF EXISTS ads;
+DROP TABLE IF EXISTS users;
 
 
 CREATE TABLE IF NOT EXISTS users(

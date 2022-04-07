@@ -15,6 +15,8 @@
 
 <button type="button" id="logout">Logout</button>
 
+<p>${sessionScope.user}</p>
+
 <script>
     document.getElementById("logout").onclick = function (){
         document.location = "http://localhost:8081/logout"
