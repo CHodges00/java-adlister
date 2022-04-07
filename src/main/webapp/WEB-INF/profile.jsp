@@ -15,7 +15,7 @@
 
 <button type="button" id="logout">Logout</button>
 
-<p>${sessionScope.user}</p>
+<p>${sessionScope}</p>
 
 <script>
     document.getElementById("logout").onclick = function (){
