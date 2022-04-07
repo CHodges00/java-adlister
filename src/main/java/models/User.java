@@ -1,7 +1,6 @@
 package models;
 
-
-import sun.security.util.Password;
+import util.Password;
 
 public class User {
     private long id;
