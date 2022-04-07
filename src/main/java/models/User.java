@@ -1,6 +1,7 @@
 package models;
 
 
+import sun.security.util.Password;
 
 public class User {
     private long id;
@@ -9,6 +10,12 @@ public class User {
     private String password;
 
     public User() {}
+
+    public User(String username, String email, String password) {
+        this.username = username;
+        this.email = email;
+        setPassword(password);
+    }
 
     public User(long id, String username, String email, String password) {
         this.id = id;
@@ -46,6 +53,7 @@ public class User {
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        this.password = Password.hash(password);
     }
 }
+
