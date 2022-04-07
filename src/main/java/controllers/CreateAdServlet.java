@@ -2,6 +2,7 @@ package controllers;
 
 import dao.DaoFactory;
 import models.Ad;
+import models.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,9 +19,9 @@ public class CreateAdServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
-
+        User user = (User) request.getSession().getAttribute("user");
         Ad ad = new Ad(
-                1,
+                user.getId(),
                 request.getParameter("title"),
                 request.getParameter("description")
         );

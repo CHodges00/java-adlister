@@ -30,4 +30,5 @@
   </form>
 </div>
 </body>
+<p>${sessionScope.user.username}</p>
 </html>

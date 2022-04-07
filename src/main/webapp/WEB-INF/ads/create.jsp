@@ -22,7 +22,7 @@
 
 </form>
 
-<p>${sessionScope}</p>
+<p>${sessionScope.user.username}</p>
 
 </body>
 </html>

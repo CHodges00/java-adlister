@@ -1,7 +1,7 @@
 use adlister_db;
 
 INSERT INTO users(username, email, password)
-VALUES ( 'iROWurBOAT', 'dgidhui7@yahoo.com', '1234djeyhd')
+VALUES ( 'iROWurBOAT', 'dgidhui7@yahoo.com', '4495')
 ;
 
 

@@ -17,13 +17,14 @@
 
     <c:forEach var="ad" items="${ads}">
         <div class="col-md-4">
+            <p>${ad.userId}</p>
             <h2>${ad.title}</h2>
             <p>${ad.description}</p>
         </div>
     </c:forEach>
 </div>
 
-<p>${sessionScope}</p>
+<p>${sessionScope.user.username}</p>
 
 
 </body>
