@@ -9,7 +9,7 @@
 <jsp:include page="/WEB-INF/partials/navbar.jsp" />
 
 <div class="container">
-    <h1>Hello, ${user}<br> you are now viewing your profile.</h1>
+    <h1>Hello, ${sessionScope.user.username}<br> you are now viewing your profile.</h1>
 </div>
 <button type="button" id="create">Create Your Ad Here!</button>
 
